@@ -10,3 +10,13 @@ friends.push(...schoolFriends);
 friends.push(...collegeFriends);
 
 console.log(friends);
+
+// spread operator in object
+
+const user = {name: 'Ahmed', phoneNumber: '+8801712345678'};
+
+const otherInfo = {hobby: 'travel', favouriteColor: 'Black'};
+
+const userInfo = {...user, ...otherInfo};
+
+console.log(userInfo);
