@@ -25,9 +25,9 @@ const student2 = {
     isMarried: false
 }
 
-// const student3 = {
-//     isWatch: true
-// }
+const student3 = {
+    isWatch: true
+}
 
 const result1 = addStudentToCourse(student1);
 console.log({ result1 });
@@ -36,5 +36,5 @@ const result2 = addStudentToCourse(student2);
 console.log({ result2 });
 
 
-// const result3 = addStudentToCourse(student3);
-// console.log({ result3 });
+const result3 = addStudentToCourse(student3);
+console.log({ result3 });
